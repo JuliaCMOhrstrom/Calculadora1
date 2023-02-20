@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Calculadora1.MainPage">
+
+    <StackLayout VerticalOptions="Center" HorizontalOptions="Center" >
+        <Label Text="CALCULADORA" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" FontSize="45" />
+        <Label Text=""/>
+        <Entry Placeholder="Dato1" x:Name="Dato1" Keyboard="Numeric"/>
+        <Entry Placeholder="Dato2" x:Name="Dato2" Keyboard="Numeric"/>
+        <Entry Placeholder="Resultado" x:Name="Resultado" IsEnabled="False"/>
+        <Button Text="Suma" Clicked="Button_Clicked"/>
+        <Button Text="Resta" Clicked="Button_Clicked"/>
+        <Button Text="Multiplicación" Clicked="Button_Clicked"/>
+        <Button Text="Division" Clicked="Button_Clicked"/>
+    </StackLayout>
+
+</ContentPage>
